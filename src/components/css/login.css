@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&family=Poppins&display=swap');
+
+.login-text {
+  font-size: 30px;
+  font-family: 'Paytone One';
+}
+.login-block {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+#login {
+  display: flex;
+  width: 450px;
+  height: 300px;
+  border-radius: 8%;
+  border: 2px solid #111;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #fff;
+}
+.login button {
+  margin: 0 8px 0;
+  padding: 0 8px 0 0;
+}
+.login i {
+  padding: 0 10px 0 8px;
+}
+
+#login .login .p-button.google:hover {
+  background-position: left bottom;
+}
+#login .login .p-button.google {
+  background: linear-gradient(to left, #4285f4, #db4437 30%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: background-position 0.9s ease-out;
+  color: #fff;
+  border-color: #f4b400;
+}
+#login .login .p-button.google i {
+  background-color: #db4437;
+}
+#login .login .p-button.google:focus {
+  box-shadow: 0 0 0 1px var(#0f9d58);
+}
+#login .p-button {
+  margin-right: 0.5rem;
+}
+#login .p-buttonset .p-button {
+  margin-right: 0;
+}
+#login .login .p-button i {
+  line-height: 2.25rem;
+}
